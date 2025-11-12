@@ -13,7 +13,7 @@ export default function ContactSection() {
               {
                 'Are you interested in collaborating or want to connect or chat? If so, hit the contact button down below or'
               }
-              <a href='#' rel='noopener no-referer'>
+              <a href='https://www.linkedin.com/in/mehran13mome/' rel='noopener no-referer'>
                 {'contact me via LinkedIn.'}
               </a>
             </p>

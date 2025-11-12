@@ -5,6 +5,7 @@ import Hero from '@/components/home/hero';
 import WorkExperienceSection from '@/components/home/work-experience';
 import SkillSetSection from '@/components/home/skill-set';
 import ContactSection from '@/components/home/contact';
+import Projects from "@/components/home/projects";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
             <SectionHeader
               emoji={'👨‍💻'}
               title={'About'}
-              link={<Link href={'#'}>{'View LinkedIn'}</Link>}
+              link={<a rel={"noreferrer noopener"} target={"_blank"} href={'https://www.linkedin.com/in/mehran13mome/'}>{'View LinkedIn'}</a>}
             />
             <WorkExperienceSection />
 
