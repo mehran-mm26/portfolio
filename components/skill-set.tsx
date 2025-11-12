@@ -5,7 +5,7 @@ const SkillSet: React.FC<{ skillSet: ISkillSet }> = ({
   skillSet: { title, description, icons },
 }) => {
   return (
-    <article className=' border border-gray-300 rounded-[10px] p-6 bg-white flex flex-col sm:w-[47%] md:flex-1'>
+    <div className=' border border-gray-300 rounded-[10px] p-6 bg-white flex flex-col sm:w-[47%] md:flex-1'>
       <h2 className=' text-gray-800 mb-4'>{title}</h2>
       <p className=' text-sm font-normal mb-6 text-slate-500'>{description}</p>
 
@@ -22,7 +22,7 @@ const SkillSet: React.FC<{ skillSet: ISkillSet }> = ({
             />
           ))}
       </div>
-    </article>
+    </div>
   );
 };
 
