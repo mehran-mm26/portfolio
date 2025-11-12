@@ -1,4 +1,4 @@
-import { INavigationItem, ISkillSet, WorkExperience } from './types';
+import {INavigationItem, IProject, ISkillSet, WorkExperience} from './types';
 
 export const navigationItems: INavigationItem[] = [
   {
@@ -6,8 +6,8 @@ export const navigationItems: INavigationItem[] = [
     title: 'About',
   },
   {
-    href: 'work',
-    title: 'Work',
+    href: 'projects',
+    title: 'Projects',
   },
   {
     href: 'contact',
@@ -122,3 +122,26 @@ export const skillSets: ISkillSet[] = [
     ],
   },
 ];
+
+export const projects: IProject[] = [
+  {
+    title: 'KAI',
+    description: '',
+    link: ''
+  },
+  {
+    title: 'TradingFinder Website',
+    description: '',
+    link: ''
+  },
+  {
+    title: 'IDmelon Website',
+    description: '',
+    link: ''
+  },
+  {
+    title: 'IDmelon Admin panel',
+    description: '',
+    link: ''
+  },
+]

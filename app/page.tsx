@@ -26,6 +26,18 @@ export default function Home() {
           </div>
         </section>
 
+        <section className='mb-28'>
+          <div className='container'>
+            <SectionHeader
+                emoji={'🚀'}
+                title={'Projects'}
+            />
+
+            <Projects />
+
+          </div>
+        </section>
+
         <ContactSection />
       </main>
     </div>
