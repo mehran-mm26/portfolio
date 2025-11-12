@@ -18,11 +18,29 @@ export const navigationItems: INavigationItem[] = [
 export const workExperiences: WorkExperience[] = [
   {
     date: {
-      startDate: new Date('2021-03-01'),
+      startDate: new Date('2025-03-01'),
       endDate: 'Present',
     },
+    companyName: 'K2Systems',
+    location: 'Germany, Stuttgart',
+    position: 'Frontend Developer',
+  },
+  {
+    date: {
+      startDate: new Date('2024-04-01'),
+      endDate: new Date('2024-09-01'),
+    },
+    companyName: 'TradingFinder',
+    location: 'UAE, Abu Dhabi (Remote)',
+    position: 'Frontend Developer',
+  },
+  {
+    date: {
+      startDate: new Date('2021-03-01'),
+      endDate: new Date('2024-01-01'),
+    },
     companyName: 'IDmelon',
-    location: 'Iran, Tehran (Remote)',
+    location: 'Canada, Vancouver (Remote)',
     position: 'Full Stack Developer',
   },
   {
@@ -79,7 +97,7 @@ export const skillSets: ISkillSet[] = [
   },
   {
     title: 'Backend',
-    description: '',
+    description: 'I design scalable and maintainable backend architectures.',
     icons: [
       {
         src: '/nodejs.svg',
@@ -101,7 +119,7 @@ export const skillSets: ISkillSet[] = [
   },
   {
     title: 'Android',
-    description: '',
+    description: 'I build user-focused Android apps with clean, efficient code.',
     icons: [
       {
         src: 'android.svg',
@@ -114,10 +132,6 @@ export const skillSets: ISkillSet[] = [
       {
         src: '/kotlin.svg',
         alt: 'kotlin',
-      },
-      {
-        src: '/git.svg',
-        alt: 'git',
       },
     ],
   },

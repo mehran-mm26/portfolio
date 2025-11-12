@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
+import {calculateExperience} from "@/utils";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -10,7 +11,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Mehran Mahmoudkhani - Software Developer',
   description:
-    'Hello! I am Mehran Mahmoudkhani. I am a Software Developer with 7 years experience.',
+    `Hello! I am Mehran Mahmoudkhani. I am a Software Developer with +${calculateExperience()} years experience.`,
 };
 
 export default function RootLayout({
