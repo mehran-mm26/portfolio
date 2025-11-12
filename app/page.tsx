@@ -6,6 +6,7 @@ import WorkExperienceSection from '@/components/home/work-experience';
 import SkillSetSection from '@/components/home/skill-set';
 import ContactSection from '@/components/home/contact';
 import Projects from "@/components/home/projects";
+import Footer from '@/components/footer';
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
 
         <ContactSection />
       </main>
+
+      <Footer />
     </div>
   );
 }
