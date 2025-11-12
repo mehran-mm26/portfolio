@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {calculateExperience} from "@/utils";
 
 export default function Hero() {
   return (
@@ -8,7 +9,7 @@ export default function Hero() {
           <span className='text-4xl mb-2.5'>👋</span>
           <h1 className=' font-bold text-4xl mb-6'>{'Hello, I am Mehran'}</h1>
           <span className=' text-xl text-gray-500 mb-6'>
-            {'I am a Software Developer with 6+ years of experience.'}
+            {`I am a Software Developer with +${calculateExperience()} years of experience.`}
           </span>
           <button className='py-[10px] px-[1rem] bg-[#ff4500d4] text-white rounded-[10px] hover:bg-[#ff4500] transition-all duration-300'>
             Download Resume
