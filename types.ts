@@ -18,3 +18,10 @@ export interface ISkillSet {
   description: string;
   icons: Array<{ src: string; alt: string }>;
 }
+
+export interface IProject {
+  title: string;
+  description: string;
+  link: string;
+  img?: { src: string; alt: string };
+}
