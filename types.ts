@@ -23,4 +23,5 @@ export interface IProject {
   title: string;
   description: string;
   link: string;
+  img?: { src: string; alt: string };
 }
