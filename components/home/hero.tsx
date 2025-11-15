@@ -11,9 +11,9 @@ export default function Hero() {
           <span className=' text-xl text-gray-500 mb-6'>
             {`I am a Software Developer with +${calculateExperience()} years of experience.`}
           </span>
-          <button className='py-[10px] px-[1rem] bg-[#ff4500d4] text-white rounded-[10px] hover:bg-[#ff4500] transition-all duration-300'>
+          {/* <button className='py-[10px] px-[1rem] bg-[#ff4500d4] text-white rounded-[10px] hover:bg-[#ff4500] transition-all duration-300'>
             Download Resume
-          </button>
+          </button> */}
         </div>
 
         <div className='flex justify-center items-center'>
