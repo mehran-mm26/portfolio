@@ -9,7 +9,7 @@ const SkillSet: React.FC<{ skillSet: ISkillSet }> = ({
       <h2 className=' text-gray-800 mb-4'>{title}</h2>
       <p className=' text-sm font-normal mb-6 text-slate-500'>{description}</p>
 
-      <div className='flex gap-4 mt-auto'>
+      <div className='flex gap-4 mt-auto flex-wrap'>
         {icons.length &&
           icons.map(({ src, alt }) => (
             <Image
